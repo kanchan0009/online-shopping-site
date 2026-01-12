@@ -90,12 +90,7 @@ python -m http.server 8000
 🎯 Key JavaScript Features
 Authentication Module
 javascript
-// Google Sign-In initialization
-function initGoogleAuth() {
-  google.accounts.id.initialize({
-    client_id: 'YOUR_CLIENT_ID',
-    callback: handleCredentialResponse
-  });
+
 }
 Shopping Cart System
 javascript
