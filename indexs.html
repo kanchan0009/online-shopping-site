@@ -1810,10 +1810,8 @@
     <script>
        const SUPABASE_URL = 'https://kwlbdyxvhhsvbqbqcqly.supabase.co';
       const SUPABASE_KEY = 'sb_publishable_apRZ400pD9f4sSW_6U2nDw_nNTu_jJW'; // Publishable Key
-      const SUPABASE_SECRET_KEY = 'sb_secret_MbiQkSP5YMogjkv5Pm8Dzg_WS3FnSFB'; // Secret Key (Service Role) - WARNING: EXPOSED TO CLIENT
-      // NOTE: Using the secret key on the client side is a security risk as it bypasses Row Level Security.
 
-      // Initialize Supabase Client
+     
       let supabaseClient = null;
       try {
         if (typeof supabase !== 'undefined') {
@@ -3755,4 +3753,5 @@
       });
     </script>
   </body>
+
 </html>
